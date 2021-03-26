@@ -19,4 +19,10 @@ public class MultiplyFractionsTest
         assertEquals(new Fraction(1, 2), new Fraction(1).times(new Fraction(1, 2)));
         assertEquals(new Fraction(-1, 2), new Fraction(1).times(new Fraction(-1, 2)));
     }
+
+    @Test
+    public void positiveFractions()
+    {
+        assertEquals(new Fraction(1, 4), new Fraction(1, 2).times(new Fraction(1, 2)));
+    }
 }

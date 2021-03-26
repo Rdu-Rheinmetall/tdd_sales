@@ -76,19 +76,19 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiplyFractionsTest.wholeAgainstFraction">
+  <component name="RunManager" selected="Gradle.MultiplyFractionsTest.positiveFractions">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiplyFractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.FractionsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -104,12 +104,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MultiplyFractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MultiplyFractionsTest.positiveFractions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest.positiveFractions&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MultiplyFractionsTest.positiveFractions" />
         <item itemvalue="Gradle.MultiplyFractionsTest.wholeAgainstFraction" />
         <item itemvalue="Gradle.MultiplyFractionsTest" />
         <item itemvalue="Gradle.MultiplyFractionsTest.somethingTimesZeroEqualsZero" />
         <item itemvalue="Gradle.SubtractFractionsTest.subtractingPositiveFromNegativeToNegativeResult" />
-        <item itemvalue="Gradle.FractionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616779989261</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Confident that multiplying whole value against fraction works,">
+      <created>1616780044805</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616780044805</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
