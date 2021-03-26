@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/main/java/ca/jbrains/math/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/AddFractionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/SubtractFractionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/2018-Brasov-Fraction-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/EqualsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/SubtractFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/SubtractFractionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +77,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubtractFractionsTest">
+  <component name="RunManager" selected="Gradle.SubtractFractionsTest.subtractingToWholeNumberResult">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -163,14 +147,26 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="All in Tdd_Test_Project (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tdd_Test_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SubtractFractionsTest.subtractingToWholeNumberResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.SubtractFractionsTest.subtractingToWholeNumberResult&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="EqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tdd_Test_Project" />
@@ -200,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubtractFractionsTest.subtractingToWholeNumberResult" />
         <item itemvalue="Gradle.SubtractFractionsTest" />
         <item itemvalue="Gradle.SubtractFractionsTest.simplePositiveFractionsSubtraction" />
         <item itemvalue="Gradle.AddFractionsTest" />
         <item itemvalue="JUnit.EqualsTest" />
-        <item itemvalue="JUnit.All in Tdd_Test_Project (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -231,13 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616434281446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added minus method plus two simple tests.">
+      <created>1616777406297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616777406297</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configured IDE with single failing test." />
     <MESSAGE value="Added EqualsTest to follow contract specified in java.lang.Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added EqualsTest to follow contract specified in java.lang.Object" />
+    <MESSAGE value="Added minus method plus two simple tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added minus method plus two simple tests." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
