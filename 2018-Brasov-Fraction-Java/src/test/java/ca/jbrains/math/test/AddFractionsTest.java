@@ -60,11 +60,4 @@ public class AddFractionsTest {
         final Fraction sum = new Fraction(1, 2).plus(new Fraction(1, 4));
         Assert.assertEquals(new Fraction(3, 4), sum);
     }
-
-    @Test(expected = RuntimeException.class)
-    public void denominatorCannotBeZero()
-    {
-        new Fraction(1, 0);
-    }
-
 }
