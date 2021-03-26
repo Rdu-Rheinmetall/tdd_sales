@@ -35,6 +35,13 @@ public class Fraction
         return new Fraction(_numerator * that._numerator, _denominator * that._denominator);
     }
 
+    public Fraction dividedBy(final Fraction that)
+    {
+        if (that._numerator == 0)
+            throw new CannotDivideByZeroException();
+        return this;
+    }
+
     @Override
     public boolean equals(final Object other)
     {
@@ -60,6 +67,10 @@ public class Fraction
     }
 
     private static class DenominatorCannotBeZeroException extends RuntimeException
+    {
+    }
+
+    private static class CannotDivideByZeroException extends RuntimeException
     {
     }
 }

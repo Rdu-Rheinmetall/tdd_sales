@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/MultiplyFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/MultiplyFractionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/main/java/ca/jbrains/math/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/main/java/ca/jbrains/math/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,12 +78,33 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiplyFractionsTest.negativeFractions">
+  <component name="RunManager" selected="Gradle.DivideFractionsTest.dividingByZeroThrows">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DivideFractionsTest.dividingByZeroThrows" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.dividingByZeroThrows&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="MultiplyFractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -147,27 +169,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MultiplyFractionsTest.somethingTimesZeroEqualsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest.somethingTimesZeroEqualsZero&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MultiplyFractionsTest.wholeAgainstFraction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DivideFractionsTest.dividingByZeroThrows" />
         <item itemvalue="Gradle.MultiplyFractionsTest.negativeFractions" />
         <item itemvalue="Gradle.MultiplyFractionsTest" />
         <item itemvalue="Gradle.MultiplyFractionsTest.positiveFractions" />
         <item itemvalue="Gradle.MultiplyFractionsTest.wholeAgainstFraction" />
-        <item itemvalue="Gradle.MultiplyFractionsTest.somethingTimesZeroEqualsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616780119891</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Confident that multiplying negative fractions work.">
+      <created>1616780255749</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616780255749</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +350,8 @@
     <MESSAGE value="Added fractions multiplication feature, mostly untested." />
     <MESSAGE value="Confident that multiplying whole value against fraction works," />
     <MESSAGE value="Confident that multiplying positive fractions work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that multiplying positive fractions work." />
+    <MESSAGE value="Confident that multiplying negative fractions work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that multiplying negative fractions work." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
