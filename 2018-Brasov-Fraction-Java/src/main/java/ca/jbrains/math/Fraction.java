@@ -30,6 +30,11 @@ public class Fraction
                             _denominator * that._denominator);
     }
 
+    public Fraction times(final Fraction that)
+    {
+        return new Fraction(_numerator * that._numerator, _denominator * that._denominator);
+    }
+
     @Override
     public boolean equals(final Object other)
     {
