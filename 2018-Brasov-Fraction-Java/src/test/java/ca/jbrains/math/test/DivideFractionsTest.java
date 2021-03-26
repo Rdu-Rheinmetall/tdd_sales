@@ -19,4 +19,10 @@ public class DivideFractionsTest
         assertEquals(new Fraction(0), new Fraction(0).dividedBy(new Fraction(1)));
         assertEquals(new Fraction(0), new Fraction(0).dividedBy(new Fraction(1, 2)));
     }
+
+    @Test
+    public void positiveFractions()
+    {
+        assertEquals(new Fraction(2, 3), new Fraction(1, 2).dividedBy(new Fraction(3, 4)));
+    }
 }

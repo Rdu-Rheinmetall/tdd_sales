@@ -39,7 +39,7 @@ public class Fraction
     {
         if (that._numerator == 0)
             throw new CannotDivideByZeroException();
-        return this;
+        return times(new Fraction(that._denominator, that._numerator));
     }
 
     @Override
