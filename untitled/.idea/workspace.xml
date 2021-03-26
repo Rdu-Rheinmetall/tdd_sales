@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/SubtractFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/SubtractFractionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,33 +77,12 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SubtractFractionsTest.subtractingWholeNumber">
+  <component name="RunManager" selected="Gradle.SubtractFractionsTest.subtractingNegativeFromNegativeToPositiveResult">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="AddFractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.AddFractionsTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="SubtractFractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -131,6 +111,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.SubtractFractionsTest.simplePositiveFractionsSubtraction&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubtractFractionsTest.subtractingNegativeFromNegativeToPositiveResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.SubtractFractionsTest.subtractingNegativeFromNegativeToPositiveResult&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SubtractFractionsTest.subtractingNegativeFromNegativeToPositiveResult" />
         <item itemvalue="Gradle.SubtractFractionsTest.subtractingWholeNumber" />
         <item itemvalue="Gradle.SubtractFractionsTest" />
         <item itemvalue="Gradle.SubtractFractionsTest.subtractingToWholeNumberResult" />
         <item itemvalue="Gradle.SubtractFractionsTest.simplePositiveFractionsSubtraction" />
-        <item itemvalue="Gradle.AddFractionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616777606985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Confident that we can subtract whole numbers">
+      <created>1616777683430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616777683430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,7 +275,8 @@
     <MESSAGE value="Added minus method plus two simple tests." />
     <MESSAGE value="Confident that we can subtract fraction to attain a whole result." />
     <MESSAGE value="Confident that subtraction can give a negative result." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that subtraction can give a negative result." />
+    <MESSAGE value="Confident that we can subtract whole numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that we can subtract whole numbers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -36,4 +36,10 @@ public class SubtractFractionsTest
     {
         assertEquals(new Fraction(3, 4), new Fraction(7, 4).minus(new Fraction(1)));
     }
+
+    @Test
+    public void subtractingNegativeFromNegativeToPositiveResult()
+    {
+        assertEquals(new Fraction(1, 2), new Fraction(-2, 3).minus(new Fraction(-7, 6)));
+    }
 }
