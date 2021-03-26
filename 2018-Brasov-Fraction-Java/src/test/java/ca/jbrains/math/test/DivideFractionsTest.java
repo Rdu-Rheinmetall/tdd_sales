@@ -43,4 +43,10 @@ public class DivideFractionsTest
     {
         assertEquals(new Fraction(1, 4), new Fraction(1, 2).dividedBy(new Fraction(2)));
     }
+
+    @Test
+    public void wholeNumberDividedByFration()
+    {
+        assertEquals(new Fraction(4), new Fraction(1).dividedBy(new Fraction(1, 4)));
+    }
 }

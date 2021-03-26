@@ -76,7 +76,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DivideFractionsTest.dividedByWholeNumber">
+  <component name="RunManager" selected="Gradle.DivideFractionsTest.wholeNumberDividedByFration">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -167,12 +167,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DivideFractionsTest.zeroDividedByAnythingEqualsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DivideFractionsTest.wholeNumberDividedByFration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.zeroDividedByAnythingEqualsZero&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.wholeNumberDividedByFration&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DivideFractionsTest.wholeNumberDividedByFration" />
         <item itemvalue="Gradle.DivideFractionsTest.dividedByWholeNumber" />
         <item itemvalue="Gradle.DivideFractionsTest.negativeFractions" />
         <item itemvalue="Gradle.DivideFractionsTest.negativeDivider" />
         <item itemvalue="Gradle.DivideFractionsTest.positiveFractions" />
-        <item itemvalue="Gradle.DivideFractionsTest.zeroDividedByAnythingEqualsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616782600879</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Confident that a fraction can be divided by a whole number.">
+      <created>1616782626850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616782626850</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +396,8 @@
     <MESSAGE value="Confident that positive fractions can be divided one by the other." />
     <MESSAGE value="Confident that a positive fraction can be divided by a negative one." />
     <MESSAGE value="Confident that negative fractions can be divided one by the other." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that negative fractions can be divided one by the other." />
+    <MESSAGE value="Confident that a fraction can be divided by a whole number." />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that a fraction can be divided by a whole number." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
