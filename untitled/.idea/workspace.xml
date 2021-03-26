@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/MultiplyFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/MultiplyFractionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MultiplyFractionsTest.positiveFractions">
+  <component name="RunManager" selected="Gradle.MultiplyFractionsTest.negativeFractions">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -89,6 +90,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiplyFractionsTest.negativeFractions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest.negativeFractions&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,27 +189,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SubtractFractionsTest.subtractingPositiveFromNegativeToNegativeResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.SubtractFractionsTest.subtractingPositiveFromNegativeToNegativeResult&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MultiplyFractionsTest.negativeFractions" />
+        <item itemvalue="Gradle.MultiplyFractionsTest" />
         <item itemvalue="Gradle.MultiplyFractionsTest.positiveFractions" />
         <item itemvalue="Gradle.MultiplyFractionsTest.wholeAgainstFraction" />
-        <item itemvalue="Gradle.MultiplyFractionsTest" />
         <item itemvalue="Gradle.MultiplyFractionsTest.somethingTimesZeroEqualsZero" />
-        <item itemvalue="Gradle.SubtractFractionsTest.subtractingPositiveFromNegativeToNegativeResult" />
       </list>
     </recent_temporary>
   </component>
@@ -307,8 +308,26 @@
       <option name="project" value="LOCAL" />
       <updated>1616780044805</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Confident that multiplying positive fractions work.">
+      <created>1616780119891</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616780119891</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configured IDE with single failing test." />
@@ -322,7 +341,8 @@
     <MESSAGE value="Confident that we can substract positive value from negative fractions." />
     <MESSAGE value="Added fractions multiplication feature, mostly untested." />
     <MESSAGE value="Confident that multiplying whole value against fraction works," />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that multiplying whole value against fraction works," />
+    <MESSAGE value="Confident that multiplying positive fractions work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that multiplying positive fractions work." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
