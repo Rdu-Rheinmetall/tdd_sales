@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/main/java/ca/jbrains/math/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/main/java/ca/jbrains/math/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DivideFractionsTest.dividingByZeroThrows">
+  <component name="RunManager" selected="Gradle.DivideFractionsTest.zeroDividedByAnythingEqualsZero">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -91,6 +90,27 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.dividingByZeroThrows&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DivideFractionsTest.zeroDividedByAnythingEqualsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.zeroDividedByAnythingEqualsZero&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,27 +189,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MultiplyFractionsTest.wholeAgainstFraction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.MultiplyFractionsTest.wholeAgainstFraction&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -208,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DivideFractionsTest.zeroDividedByAnythingEqualsZero" />
         <item itemvalue="Gradle.DivideFractionsTest.dividingByZeroThrows" />
         <item itemvalue="Gradle.MultiplyFractionsTest.negativeFractions" />
         <item itemvalue="Gradle.MultiplyFractionsTest" />
         <item itemvalue="Gradle.MultiplyFractionsTest.positiveFractions" />
-        <item itemvalue="Gradle.MultiplyFractionsTest.wholeAgainstFraction" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616780255749</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Fraction divideBy function, only returns &quot;this&quot;.">
+      <created>1616781321369</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616781321369</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +357,8 @@
     <MESSAGE value="Confident that multiplying whole value against fraction works," />
     <MESSAGE value="Confident that multiplying positive fractions work." />
     <MESSAGE value="Confident that multiplying negative fractions work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that multiplying negative fractions work." />
+    <MESSAGE value="Added Fraction divideBy function, only returns &quot;this&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Fraction divideBy function, only returns &quot;this&quot;." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
