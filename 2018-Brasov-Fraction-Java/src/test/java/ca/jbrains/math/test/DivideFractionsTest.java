@@ -37,4 +37,10 @@ public class DivideFractionsTest
     {
         assertEquals(new Fraction(6, 5), new Fraction(-3, 5).dividedBy(new Fraction(-1, 2)));
     }
+
+    @Test
+    public void dividedByWholeNumber()
+    {
+        assertEquals(new Fraction(1, 4), new Fraction(1, 2).dividedBy(new Fraction(2)));
+    }
 }

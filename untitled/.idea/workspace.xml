@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616782086005</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Confident that negative fractions can be divided one by the other.">
+      <created>1616782600879</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616782600879</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +388,8 @@
     <MESSAGE value="Confident that 0 dividedBy anything gives zero." />
     <MESSAGE value="Confident that positive fractions can be divided one by the other." />
     <MESSAGE value="Confident that a positive fraction can be divided by a negative one." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that a positive fraction can be divided by a negative one." />
+    <MESSAGE value="Confident that negative fractions can be divided one by the other." />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that negative fractions can be divided one by the other." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
