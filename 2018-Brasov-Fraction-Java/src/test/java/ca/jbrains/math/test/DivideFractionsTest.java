@@ -31,4 +31,10 @@ public class DivideFractionsTest
     {
         assertEquals(new Fraction(-2, 3), new Fraction(1, 2).dividedBy(new Fraction(-3, 4)));
     }
+
+    @Test
+    public void negativeFractions()
+    {
+        assertEquals(new Fraction(6, 5), new Fraction(-3, 5).dividedBy(new Fraction(-1, 2)));
+    }
 }
