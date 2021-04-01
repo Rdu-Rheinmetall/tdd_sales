@@ -23,4 +23,11 @@ public class BarcodeProcessorTest
         _barcodeProcessor.onBarcode("");
         verify(_mockDataOutputter).output("");
     }
+
+    @Test
+    public void onValidKnownItemBarcode()
+    {
+        _barcodeProcessor.onBarcode("012345678901");
+        verify(_mockDataOutputter).output("$9.99");
+    }
 }

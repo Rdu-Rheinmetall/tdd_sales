@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BarcodeProcessorTest">
+  <component name="RunManager" selected="JUnit.BarcodeProcessorTest.onValidKnownItemBarcode">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -92,48 +91,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.dividedByWholeNumber&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DivideFractionsTest.negativeDivider" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.negativeDivider&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DivideFractionsTest.negativeFractions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.negativeFractions&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,6 +143,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BarcodeProcessorTest.onInvalidBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tdd_Test_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.rheinmetall.pos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.rheinmetall.pos" />
+      <option name="MAIN_CLASS_NAME" value="ca.rheinmetall.pos.BarcodeProcessorTest" />
+      <option name="METHOD_NAME" value="onInvalidBarcode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarcodeProcessorTest.onValidKnownItemBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tdd_Test_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.rheinmetall.pos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.rheinmetall.pos" />
+      <option name="MAIN_CLASS_NAME" value="ca.rheinmetall.pos.BarcodeProcessorTest" />
+      <option name="METHOD_NAME" value="onValidKnownItemBarcode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -204,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarcodeProcessorTest.onValidKnownItemBarcode" />
+        <item itemvalue="JUnit.BarcodeProcessorTest.onInvalidBarcode" />
         <item itemvalue="JUnit.BarcodeProcessorTest" />
         <item itemvalue="Gradle.DivideFractionsTest.wholeNumberDividedByFration" />
         <item itemvalue="Gradle.DivideFractionsTest.dividedByWholeNumber" />
-        <item itemvalue="Gradle.DivideFractionsTest.negativeFractions" />
-        <item itemvalue="Gradle.DivideFractionsTest.negativeDivider" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616782846283</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated .gitignore and added DataOutputter interface.">
+      <created>1617294491452</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617294491452</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +402,8 @@
     <MESSAGE value="Confident that negative fractions can be divided one by the other." />
     <MESSAGE value="Confident that a fraction can be divided by a whole number." />
     <MESSAGE value="Confident that a whole number can be divided by a fraction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that a whole number can be divided by a fraction." />
+    <MESSAGE value="Updated .gitignore and added DataOutputter interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore and added DataOutputter interface." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
