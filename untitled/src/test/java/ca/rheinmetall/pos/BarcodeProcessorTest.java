@@ -32,10 +32,16 @@ public class BarcodeProcessorTest
     public void onKnownItemBarcode()
     {
         final String barcode = "012345678901";
-        final Item matchingItem = new Item();
+        final Item matchingItem = new Item(9.99D);
         when(_mockBarcodesContainer.findItemByBarcode(barcode)).thenReturn(matchingItem);
         _barcodeProcessor.onBarcode(barcode);
         verify(_mockDataOutputter).output("$9.99");
+
+        final String barcode2 = "987654321098";
+        final Item matchingItem2 = new Item(19.99D);
+        when(_mockBarcodesContainer.findItemByBarcode(barcode2)).thenReturn(matchingItem2);
+        _barcodeProcessor.onBarcode(barcode2);
+        verify(_mockDataOutputter).output("$19.99");
     }
 
     @Test
