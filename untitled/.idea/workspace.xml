@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-Brasov-Fraction-Java/src/test/java/ca/jbrains/math/test/DivideFractionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DivideFractionsTest.wholeNumberDividedByFration">
+  <component name="RunManager" selected="JUnit.BarcodeProcessorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -146,27 +149,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DivideFractionsTest.positiveFractions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../2018-Brasov-Fraction-Java" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ca.jbrains.math.test.DivideFractionsTest.positiveFractions&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="DivideFractionsTest.wholeNumberDividedByFration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -188,6 +170,22 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="BarcodeProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tdd_Test_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.rheinmetall.pos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.rheinmetall.pos" />
+      <option name="MAIN_CLASS_NAME" value="ca.rheinmetall.pos.BarcodeProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -206,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarcodeProcessorTest" />
         <item itemvalue="Gradle.DivideFractionsTest.wholeNumberDividedByFration" />
         <item itemvalue="Gradle.DivideFractionsTest.dividedByWholeNumber" />
         <item itemvalue="Gradle.DivideFractionsTest.negativeFractions" />
         <item itemvalue="Gradle.DivideFractionsTest.negativeDivider" />
-        <item itemvalue="Gradle.DivideFractionsTest.positiveFractions" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616782626850</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Confident that a whole number can be divided by a fraction.">
+      <created>1616782846283</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616782846283</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,6 +381,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configured IDE with single failing test." />
@@ -397,7 +403,8 @@
     <MESSAGE value="Confident that a positive fraction can be divided by a negative one." />
     <MESSAGE value="Confident that negative fractions can be divided one by the other." />
     <MESSAGE value="Confident that a fraction can be divided by a whole number." />
-    <option name="LAST_COMMIT_MESSAGE" value="Confident that a fraction can be divided by a whole number." />
+    <MESSAGE value="Confident that a whole number can be divided by a fraction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Confident that a whole number can be divided by a fraction." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
