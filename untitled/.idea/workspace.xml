@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d38267-3e49-4dcb-811c-3d649245ccb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/model/BarcodesContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/rheinmetall/pos/BarcodeProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/rheinmetall/pos/BarcodeProcessorTest.java" afterDir="false" />
@@ -45,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +83,7 @@
       <recent name="ca.jbrains.math" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BarcodeProcessorTest.onValidKnownItemBarcode">
+  <component name="RunManager" selected="JUnit.BarcodeProcessorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -143,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarcodeProcessorTest.onInvalidBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarcodeProcessorTest.onKnownItemBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tdd_Test_Project" />
       <extension name="coverage">
         <pattern>
@@ -153,14 +158,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="ca.rheinmetall.pos" />
       <option name="MAIN_CLASS_NAME" value="ca.rheinmetall.pos.BarcodeProcessorTest" />
-      <option name="METHOD_NAME" value="onInvalidBarcode" />
+      <option name="METHOD_NAME" value="onKnownItemBarcode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarcodeProcessorTest.onValidKnownItemBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarcodeProcessorTest.onUnknownBarcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tdd_Test_Project" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +175,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ca.rheinmetall.pos" />
       <option name="MAIN_CLASS_NAME" value="ca.rheinmetall.pos.BarcodeProcessorTest" />
-      <option name="METHOD_NAME" value="onValidKnownItemBarcode" />
+      <option name="METHOD_NAME" value="onUnknownBarcode" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -195,9 +200,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BarcodeProcessorTest.onValidKnownItemBarcode" />
-        <item itemvalue="JUnit.BarcodeProcessorTest.onInvalidBarcode" />
         <item itemvalue="JUnit.BarcodeProcessorTest" />
+        <item itemvalue="JUnit.BarcodeProcessorTest.onUnknownBarcode" />
+        <item itemvalue="JUnit.BarcodeProcessorTest.onKnownItemBarcode" />
         <item itemvalue="Gradle.DivideFractionsTest.wholeNumberDividedByFration" />
         <item itemvalue="Gradle.DivideFractionsTest.dividedByWholeNumber" />
       </list>
