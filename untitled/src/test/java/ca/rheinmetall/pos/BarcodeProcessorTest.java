@@ -29,6 +29,13 @@ public class BarcodeProcessorTest
     }
 
     @Test
+    public void onNullBarcode()
+    {
+        _barcodeProcessor.onBarcode(null);
+        verify(_mockDataOutputter).output("");
+    }
+
+    @Test
     public void onKnownItemBarcode()
     {
         final String barcode = "012345678901";
